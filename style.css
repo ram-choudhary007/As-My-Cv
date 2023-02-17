@@ -1,0 +1,135 @@
+body{
+    text-align: center;
+    font-family: calibri;
+    line-height: 2;
+}
+
+h1{
+    color: #28b6b6;
+    margin-top: 0 auto;
+    /* text-shadow: 2px 2px 2px #aaa; */
+    font-family: "Sacramento",serif;
+    /* we use single or double quote both */
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+h2{
+    color: #64dada ;
+    /* font-weight: normal; */
+    text-align: center;
+}
+h3{
+    color:  #11999E;
+}
+
+a{
+    color:  #11999E;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    margin: -6px;
+}
+
+#topc{
+    position: absolute;
+    right: 320px;
+    top: 50px;
+}
+
+#bottc{
+    position: absolute;
+    right: 770px;
+}
+
+#ul{
+    text-decoration: underline;
+}
+
+.profile{
+width: 50%;
+margin: 50px auto;
+}
+.skill{
+    text-align: center;
+    width: 50%;
+    margin: auto; 
+    /* This is used to center */
+}
+
+.skill-row{
+    margin: 100px auto;
+   width: 50%;
+}
+
+.photo{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 40px;
+}
+
+#chilli{
+    float: right;
+    margin-left: 40px;
+}
+
+.myphoto{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.middle-container{
+    color: #40514E;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 5px;
+    border-bottom-style: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+#intro{
+    width: 60%;
+    margin: auto;
+}
+
+#hw{
+    width: 38%;
+    margin: 0px auto 30px;
+    
+}
+
+#contact {
+    font-size: 1.5rem;
+    color: #E4F9F5;
+    background-image: linear-gradient( rgb(174, 255, 0) ,  rgb(0, 128, 113));
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+  }
+  
+  #contact:hover {
+    color: #E4F9F5;
+    background-image: linear-gradient(to bottom, rgb(15, 139, 145) , rgb(0, 255, 234));
+  }
+  
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 30px;
+}
+
+a{
+margin: 20px;
+color: #11999E;
+}
+
+#endline{
+    color: #EAF6F6;
+}

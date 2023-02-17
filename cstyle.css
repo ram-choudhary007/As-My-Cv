@@ -1,0 +1,28 @@
+body{
+    background-color:#eff9f7;
+}
+
+.head{
+    color: rgb(8, 170, 153);
+}
+
+#photo{
+    height: 100px;
+    background-color: transparent;
+}
+#pb:hover{
+    background-color: rgb(170, 198, 201);
+}
+
+.head:hover{
+    background-color: aqua;
+    color: black;
+}
+
+hr{
+    border-color:rgb(82, 76, 76) ;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 15%;
+}
