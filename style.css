@@ -2,6 +2,7 @@ body{
     text-align: center;
     font-family: calibri;
     line-height: 2;
+    width: 100%;
 }
 
 h1{
@@ -29,19 +30,19 @@ a{
 .top-container{
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
-    margin: -6px;
+    padding-top: 6.25rem;
+    margin: -0.375rem;
 }
 
 #topc{
     position: absolute;
-    right: 320px;
-    top: 50px;
+    right: 10rem;
+    top: 3.125rem;
 }
 
 #bottc{
     position: absolute;
-    right: 770px;
+    right: 60rem;
 }
 
 #ul{
@@ -50,8 +51,9 @@ a{
 
 .profile{
 width: 50%;
-margin: 50px auto;
+margin: 3.125rem auto;
 }
+
 .skill{
     text-align: center;
     width: 50%;
@@ -60,26 +62,27 @@ margin: 50px auto;
 }
 
 .skill-row{
-    margin: 100px auto;
+    margin: 6.25rem auto;
    width: 50%;
 }
 
 .photo{
-    height: 150px;
-    width: 150px;
+    height: 9.375rem;
+    width: 9.375rem;
     float: left;
-    margin-right: 40px;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 #chilli{
     float: right;
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 .myphoto{
-    height: 150px;
-    width: 150px;
-    margin-right: 20px;
+    height: 9.375rem;
+    width: 9.375rem;
+    margin-right: 1.25rem;
 }
 
 .middle-container{
@@ -88,10 +91,10 @@ margin: 50px auto;
 
 hr{
     border-style: dotted;
-    border-width: 5px;
+    border-width: 0.313rem;
     border-bottom-style: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 6.25rem auto;
 }
 
 #intro{
@@ -101,7 +104,7 @@ hr{
 
 #hw{
     width: 38%;
-    margin: 0px auto 30px;
+    margin: 0rem auto 1.875rem;
     
 }
 
@@ -109,9 +112,9 @@ hr{
     font-size: 1.5rem;
     color: #E4F9F5;
     background-image: linear-gradient( rgb(174, 255, 0) ,  rgb(0, 128, 113));
-    padding: 10px;
-    margin: 30px;
-    border-radius: 10px;
+    padding: 0.625rem;
+    margin: 1.875rem;
+    border-radius: 0.625rem;
   }
   
   #contact:hover {
@@ -122,14 +125,80 @@ hr{
 
 .bottom-container{
     background-color: #66BFBF;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
-a{
-margin: 20px;
-color: #11999E;
-}
+/* a{
+margin: 1.25rem;
+color:#113c3d;
+} */
 
 #endline{
     color: #EAF6F6;
+}
+
+#mountain{
+    width: 100%;
+}
+
+#passion{
+    font-family: 'Shantell Sans', cursive;
+    color: rebeccapurple;
+}
+
+#more{
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+
+.footer-link{
+    margin: 1.25rem;
+    color:#113c3d;
+}
+
+@media only screen and (max-width: 1024px ){
+   
+    #topc{
+        position: absolute;
+        left: 1.5rem;
+        top: 3rem;
+    }
+
+    #bottc{
+        position: absolute;
+        right: 1.5rem;
+    }
+    
+#intro{
+    width: 100%;
+    margin: auto;
+}
+
+.photo{
+    float: none;
+   margin: auto;
+}
+
+#chilli{
+    float: none;
+    margin: auto;
+}
+
+.skill-row{
+   width: 85%;
+}
+
+#hw{
+    width: 55%; 
+}
+
+.profile {
+    width: 80%;
+    margin: 3.125rem auto;
+}
+
+#im{
+    font-size: 3rem;
+}
+    
 }
